@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+  line-height: 1.6em;
+  background-color: #25262a;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #25262a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #25262a;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #3a3a3a;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.lead {
+	font-weight: 400;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+button.navbar-toggle {
+	background: #2b2b2b;
+	border: none;
+	color: #fff;
+}
+
+.btn-theme, .btn-theme:hover, .btn-theme:focus {
+	color: #fff;
+}
+
+.btn-theme:hover {
+	background: transparent !important;
+	border-color: #999;
+	color: #999;
+}
+
+/* ================================
+margin, padding
+================================= */
+
+.mar-top0 {
+	margin-top: 0;
+}
+
+.mar-top10 {
+	margin-top: 10px;
+}
+
+.mar-top20 {
+	margin-top: 20px;
+}
+
+.mar-top30 {
+	margin-top: 30px;
+}
+
+.mar-top40 {
+	margin-top: 40px;
+}
+
+.submit-btn {
+	background: #63f5ac;
+}
+
+/* Back to top button */
+
+.back-to-top {
+	position: fixed;
+	display: none;
+	padding: 6px 12px 9px 12px;
+	font-size: 16px;
+	border-radius: 2px;
+	right: 15px;
+	bottom: 15px;
+	transition: background 0.5s;
+	z-index: 1000;
+	background: #63f5ac;
+}
+
+@media (max-width: 768px) {
+	.back-to-top {
+		bottom: 15px;
+	}
+}
+
+.back-to-top:focus {
+	outline: none;
+}
